@@ -1,0 +1,51 @@
+body {
+    background-color: darkgrey;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.top-image {
+    width: 100%;
+    position: relative;
+}
+
+.first-text {
+    text-align: right;
+    position: absolute;
+    top: 224px;
+    right: 50px;
+}
+
+.second-text {
+    text-align: right;
+    position: absolute;
+    top: 284px;
+    right: 50px;
+    color:darkgrey;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.desk img { 
+    width: 230px;
+    border-radius: 230px;
+    border: solid 10px black;
+    height: 230px;
+}
+
+.graphic img {
+    width: 230px;
+    border-radius: 230px;
+    border: solid 10px black;
+    height: 230px;
+}
+
+.person img {
+    width: 230px;
+    border-radius: 230px;
+    border: solid 10px black;
+    height: 230px;
+}
