@@ -31,7 +31,6 @@ header {
 nav a:hover {
     background-color: #815e5b;
     color: white;
-    text-decoration: underline;
 }
 .book {
     background-color: #fefadc;
@@ -76,7 +75,6 @@ h4 {
 }
 footer h3 {
     color: #2a4747;
-    text-decoration: underline;
 }
 footer a {
     color: #2a4747;
