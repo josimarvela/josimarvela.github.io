@@ -1,0 +1,19 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 125px 125px 125px 125px;
+}
+.name {
+    grid-column: 2/-1;
+    grid-row: 1/-1;
+}
+.lightning {
+    grid-column: 1/2;
+    grid-row: 1/-1;
+    width: 500px;
+    height:500px;
+}
+.button { 
+    background-color: orange;
+    color:white;
+}
