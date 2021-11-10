@@ -117,7 +117,7 @@ nav a:hover {
 footer {
     background-color: #fefadc;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 350px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -265,12 +265,66 @@ footer .social img {
 .idaho-img {
     width: 765px;
     height: 725px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-bottom:30px;
+}
+.idaho, .utah, .arizona {
+    padding: 20px;
+}
+.idaho-river, .utah-river, .arizona-river {
+    display: flex;
+}
+.utah-river {
+    flex-direction: row-reverse;
+}
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 30px ;
+    text-align: center;
+    margin-top: 100px;
+}
+p {
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'lato';
+    text-align: center;
 }
 .utah-img {
     width: 765px;
-    height: 725px
+    height: 725px;
+    box-shadow: 5px 5px 10px 10px #6f7364;
+    margin-bottom:30px
 }
 .arizona-img {
     width: 765px;
     height: 725px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 100px;
+}
+.button-box {
+    margin-bottom: 450px;
+    position: relative;
+    top: 120px;
+}
+.grand-canyon {
+    position: relative;
+    top: 90px;
+}
+.grand-canyon-msg {
+    position: relative;
+    top: 100px;
+}
+.learnmore {
+    background-color: #fefadc;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.learnmore:hover {
+    background-color: white;
+    color: #2a4747;
 }
