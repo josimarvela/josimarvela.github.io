@@ -249,3 +249,28 @@ footer .social img {
         margin-top: 25px;
     }
 }
+#beautifulriver-img {
+    width: 100%;
+    box-sizing: border-box;
+}
+#beautifulriver-msg h1 {
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: bolder;
+    color: white;
+    position: relative;
+    bottom: 800px;
+    font-size: 175px;
+}
+.idaho-img {
+    width: 765px;
+    height: 725px;
+}
+.utah-img {
+    width: 765px;
+    height: 725px
+}
+.arizona-img {
+    width: 765px;
+    height: 725px;
+}
