@@ -35,7 +35,23 @@ nav a:hover {
     background-color: #D4D8D4;
     color: black;
 }
-h1 {
+.landscapeheadline {
+    font-size: 50px;
+    font-family: 'Cinzel';
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.portraitheadline {
+    font-size: 50px;
+    font-family: 'Cinzel';
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.miscellaneousheadline {
     font-size: 50px;
     font-family: 'Cinzel';
     text-decoration: underline;
@@ -355,29 +371,27 @@ input[type=text], select, textarea {
     background-color: #D4D8D4;
   }
   .information {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
 }
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     font-family: 'Cinzel';
-    grid-column: 1/2;
-    grid-row: 1/3;
-    margin-top: 50px;
+    grid-column: 2/3;
+    margin-top: 100px;
   }
   .red {
-      width: 700px;
-      height: 600px;
-      align-self: auto;
+      width: 750px;
+      height: 500px;
+      grid-column: 1/2;
       margin-bottom: 100px;
-      grid-column: 2/3;
-      grid-row: 2/3;
   }
   .contactme {
-      margin-bottom: 50px;
-      grid-column: 2/3;
-      grid-row: 1/2;
+    font-size: 50px;
+    font-family: 'Cinzel';
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
   }
