@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <div class="header">
@@ -18,20 +19,30 @@
         </nav>
     </div>
     <main class="information">
-        <section class="contactinfo">
-        <h1>Name</h1>
-        <input type="name">
-        <h2>Email</h2>
-        <input type="email">
-        <h3>Subject</h3>
-        <input type="subject">
-        <h4>Message</h4>
-        <input type="message">
-        <input type="submit">
-        </section>
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Last Name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="china">China</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Subject" style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
         <section class="contactimage">
-            <h1>Contact Me</h1>
-            <img src="images/redphone.jpg">
+            <h1 class='contactme'>Contact Me</h1>
+            <img class='red' src="images/redphone.jpg">
         </section>
     </main>
     <footer>
